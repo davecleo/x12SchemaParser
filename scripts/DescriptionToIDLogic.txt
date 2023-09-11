@@ -1,0 +1,6 @@
+		step {
+			new com.cleo.labs.x12decoder.v002001.Description_To_ID_v002001_0_CT$BpsTask().execute(key1, key2, result)
+		} next : end 
+		step {
+			new CompareValues().execute(result, unknown, "Equal (=)".asCompareType, unset)
+		} next : Done

@@ -1,0 +1,8 @@
+#content/*bps 2 */
+package com.cleo.labs.x12decoder.v002001;
+
+def bps DescriptionToIDBPS {
+
+	def execute(String key1, String key2, String result) {
+		var String unknown="Unknown"
+
